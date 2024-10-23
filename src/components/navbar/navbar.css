@@ -1,0 +1,114 @@
+.navbar {
+    height: 5rem;
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.desktopMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo {
+    object-fit: contain;
+    height: 3rem;
+    width: 4rem;
+    cursor: pointer;
+}
+
+.navLink {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.navLink:hover {
+    color: #f1f1f1;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid gold;
+}
+
+.contactMe {
+    background-color: gold;
+    color: black;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+    border-radius: 2rem;
+    width: 7rem;
+    font-size: large;
+    color: rgb(30, 30, 30);
+    font-family:'Trebuchet MS';
+    cursor: pointer;
+}
+
+.contactImg {
+    object-fit: contain;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.active {
+    color: gold;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid gold;
+}
+
+.navMenu {
+    position: absolute;
+    top: 4rem;
+    right: 2rem;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    height: fit-content;
+    min-width: 15rem;
+    background-color: rgb(30, 30, 30);
+    border-radius: 1rem;
+}
+
+.listLink {
+    color:  #f1f1f1;
+    padding: 0.5rem 3rem;
+    margin: 0.25rem;
+    cursor: pointer;
+    background-color: rgb(30, 30, 30);
+}
+
+.navLink:visited, .listLink:visited {
+    color: #f1f1f1;
+}
+
+.burgerMenu {
+    display: none;
+    object-fit: cover;
+    height: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+    .burgerMenu {
+        display: flex;
+    }
+
+    .desktopMenu {
+        display: none;
+    }
+
+    .contactMe {
+        display: none;
+    }
+}

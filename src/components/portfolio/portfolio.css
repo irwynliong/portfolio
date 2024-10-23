@@ -1,0 +1,212 @@
+.portfolio {
+max-width: 900px;
+margin: 0 auto;
+padding: 20px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+}
+
+h2 {
+  color: gold;
+  margin-top: 10px;
+  border-bottom: 2px solid gold;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: #c49c4dff;
+  margin-bottom: 20px;
+}
+
+/* Experience, Education, Projects */
+.experience-item, .education-item, .project-item {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.experience-item ul, .education-item ul, .project-item ul {
+  padding-left: 20px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adds space between each experience item */
+  margin-top: 20px;
+}
+
+.experience-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: large;
+  font: bold;
+}
+
+.experience-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 1px;
+  display: flex;
+  border-radius: 10%;
+}
+
+.experience-content h3 {
+  margin: 0;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.company {
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: bold;
+  display: block;
+  color: beige;
+  margin-bottom: 10px;
+}
+
+.experience-content .duration {
+  margin: 0;
+  font-size: 0.9em;
+  font-style: italic;
+  color: beige;
+  margin-left: auto;
+}
+
+.experience-tasks {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.experience-content p {
+  margin: 0;
+  font-size: 1.1em;
+  display: block;
+}
+
+.experience-tasks li {
+  margin-bottom: 5px;
+}
+
+li {
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Adds space between each education item */
+  margin-top: 20px;
+}
+
+.education-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: large;
+  font: bold;
+}
+
+.education-logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 1px;
+  display: flex;
+  border-radius: 10%;
+}
+
+.education-content h3 {
+  margin: 0;
+  font-size: 1.3em;
+  margin-left: 10px;
+}
+
+.institution {
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: bold;
+  display: block;
+  color: beige;
+  margin-bottom: 10px;
+}
+
+.education-content .duration {
+  margin: 0;
+  font-size: 0.9em;
+  font-style: italic;
+  color: beige;
+  margin-left: auto;
+}
+
+.accolades {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.GPA {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.accolades li {
+  margin-bottom: 0px;
+}
+
+/* Project Links */
+.project-item a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+.project-item a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .portfolio {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  .contact p, .skills-section p {
+    font-size: 1em;
+  }
+}
+
+.tab {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.tab:hover {
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+.tab.active {
+  text-decoration: underline;
+  color: gold;
+}
