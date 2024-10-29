@@ -28,7 +28,7 @@ const Navbar = () => {
         <RouterLink className="navLink" to="/" smooth={true} duration={1000}>Home</RouterLink>
         <div className="navLink" onClick={goToHomeThenScrollToAbout}>About</div>
         <RouterLink className="navLink" to="/portfolio">Portfolio</RouterLink>
-        <ScrollLink className="navLink" to="cool" smooth={true} duration={1000}>Cool</ScrollLink>
+        <RouterLink className="navLink" to="/cool" smooth={true} duration={1000}>Cool</RouterLink>
       </div>
 
       <button className="contactMe" onClick={() => {
@@ -44,7 +44,7 @@ const Navbar = () => {
         <RouterLink className="listLink" to="/" smooth={true} duration={1000} onClick={() => setShowMenu(false)}>Home</RouterLink>
         <div className="listLink" onClick={goToHomeThenScrollToAbout}>About</div>
         <RouterLink className="listLink" to="/portfolio" onClick={() => setShowMenu(false)}>Portfolio</RouterLink>
-        <ScrollLink className="listLink" to="cool" smooth={true} duration={1000} onClick={() => setShowMenu(false)}>Cool</ScrollLink>
+        <RouterLink className="listLink" to="cool" smooth={true} duration={1000} onClick={() => setShowMenu(false)}>Cool</RouterLink>
         <ScrollLink className="listLink" to="contact" smooth={true} duration={1000} onClick={() => setShowMenu(false)}>Contact</ScrollLink>
       </div>
     </nav>

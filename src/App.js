@@ -8,6 +8,7 @@ import Portfolio from './components/portfolio/portfolio';
 import Ocsp from './components/pages/ocsp';
 import Noc from './components/pages/noc';
 import Life from './components/pages/life';
+import Cool from './components/cool/cool';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} /> {/* Home Page displaying Intro, About, and Contact */}
           <Route path="/portfolio" element={<Portfolio />} /> {/* Portfolio Page */}
+          <Route path="/cool" element={<Cool />} /> {/* Cool Page */}
           <Route path="/ocsp" element={<Ocsp />} />
           <Route path="/noc" element={<Noc />} />
           <Route path="/life" element={<Life />} />

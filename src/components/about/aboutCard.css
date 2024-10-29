@@ -4,8 +4,8 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 10px;
     width: fit-content;
-    min-height: 100px;
-    max-width: 250px;
+    min-height: 140px;
+    min-width: 180px;
     display: flex;
     align-items: center;
     transition: transform 0.3s;
@@ -16,8 +16,8 @@
 }
 
 .aboutCard img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     margin-right: 10px;
 }

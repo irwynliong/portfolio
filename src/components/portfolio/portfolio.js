@@ -67,6 +67,7 @@ const Portfolio = () => {
                     "Sheares Hall AY23/24 Volleyball member",
                     "Sheares Hall AY23/24 Overseas Community Service Project (OCSP) member",
                     "Sheares Hall AY23/24 Tennis member",
+                    "School of Computing AY23/24 D&D Programmes Head",
                     "Sheares Hall AY22/23 Table Tennis member",
                     "Sheares Hall AY22/23 Volleyball member",
                     "Sheares Hall AY22/23 Floorball member",
@@ -170,7 +171,7 @@ const Portfolio = () => {
                     {portfolioData.education.map((edu, index) => (
                         <div key={index} className="education-item">
                             <div className="education-header">
-                                <img src={edu.logo} alt={`${edu.company} logo`} className="experience-logo" />
+                                <img src={edu.logo} alt={`${edu.company} logo`} className="education-logo" />
                                 <h3>{edu.degree}</h3>
                                 <p className="duration"><i>{edu.duration}</i></p>
                             </div>
