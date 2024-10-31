@@ -3,7 +3,7 @@ const aboutCardData = {
     {
         imgSrc: require("../../images/ocsp_logo.png"),
         title: "OCSP",
-        description: "I gain sense of achievement by giving back to society.",
+        description: "I like to give back to society!",
         link: "/ocsp",
         index: 0,
     },
@@ -17,7 +17,7 @@ const aboutCardData = {
     {
         imgSrc: require("../../images/myself.png"),
         title: "Life",
-        description: "I love life.",
+        description: "Story of my life.",
         link: "/life",
         index: 2,
     },
